@@ -1,0 +1,8 @@
+$text-color: (
+  "main=gray": #9DA4BD,
+  "title-black": #303030,
+  "title-white":#fff,
+);
+@function text($key) {
+  @return map-get($text-color, $key);
+}

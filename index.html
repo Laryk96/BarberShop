@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barber Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="container">
+        <a href="./index.html" class="logo">
+          <svg class="logo__icon" width="69" height="55">
+            <use href="./image/symbol-defs.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <button
+          class="btn-menu"
+          type="button"
+          aria-controls="mobail-menu"
+          aria-expanded="false"
+          data-menu-button
+        >
+          <svg width="40" height="40">
+            <use href="./image/symbol-defs.svg#icon-menu"></use>
+            <use href="./image/symbol-defs.svg#icon-cross"></use>
+          </svg>
+        </button>
+        <div class="mobail-menu" data-menu>
+          <nav class="page-header__navigation">
+            <ul class="site-nav">
+              <li class="site-nav__item">
+                <a href="" class="site-nav__link">About</a>
+              </li>
+              <li class="site-nav__item">
+                <a href="" class="site-nav__link">Services and prices</a>
+              </li>
+              <li class="site-nav__item">
+                <a href="" class="site-nav__link">Barbers</a>
+              </li>
+              <li class="site-nav__item">
+                <a href="" class="site-nav__link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="page-header__servis">
+            <a href="tel:+380441111111" class="header__tel"
+              >+38 044 111 11 11</a
+            >
+            <button type="button" class="header__btn"></button>
+          </div>
+
+          <div class="page-header__network">
+            <ul class="network-text">
+              <li class="network-text__item">
+                <a class="network-text__link" href="">Instagram</a>
+              </li>
+              <li class="network-text__item">
+                <a class="network-text__link" href="">Youtube</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main></main>
+    <footer></footer>
+    <script src="./js/mobail-menu.js"></script>
+    <script src="./js/test-form.js"></script>
+  </body>
+</html>
