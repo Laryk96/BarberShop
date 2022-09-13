@@ -1,34 +1,49 @@
 .page-header {
+  width: 100%;
+  position: absolute;
 }
 
-.logo {
-  font-family: "Raleway", sans-serif;
+.page-header__container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-top: 40px;
 }
-.logo__icon {
-}
-.btn-menu {
-}
-.mobail-menu {
-}
+
 .page-header__navigation {
 }
-.site-nav {
-}
-.site-nav__item {
-}
-.site-nav__link {
-}
+
 .page-header__servis {
+  margin-bottom: 64px;
 }
+
 .header__tel {
+  display: inline-block;
+  margin-bottom: 24px;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.388;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #303030;
 }
-.header__btn {
+
+.btn-booking {
+  display: block;
+  padding: 12px 37px;
+
+  background-color: #ffffff;
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.333;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #303030;
 }
+
 .page-header__network {
-}
-.network-text {
-}
-.network-text__item {
-}
-.network-text__link {
 }

@@ -1,0 +1,14 @@
+.servis-list {
+  margin-bottom: 44px;
+}
+.servis-list__item {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.servis-list__item:not(:last-child) {
+    margin-bottom: 20px;
+}
+.servis-list__price {
+}

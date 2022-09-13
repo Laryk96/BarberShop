@@ -1,0 +1,33 @@
+.network-text {
+}
+
+.network-text__item {
+  position: relative;
+  padding-left: 100px;
+}
+
+.network-text__item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.network-text__link {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.357;
+  letter-spacing: 0.2em;
+
+  color: #303030;
+}
+
+.network-text__link--decoration::before {
+  content: "";
+  position: absolute;
+  left: 30px;
+  top: -19px;
+  width: 1px;
+  height: 60px;
+  color: #303030;
+  background: #303030;
+  transform: rotate(90deg);
+}

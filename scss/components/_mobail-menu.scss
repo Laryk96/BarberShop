@@ -1,0 +1,57 @@
+.mobail-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70vw;
+  height: 100vh;
+  padding-top: 118px;
+  padding-left: 40px;
+  padding-bottom: 227px;
+  opacity: 1;
+  transform: translateX(200%);
+  visibility: hidden;
+
+  background-color: #fff;
+  box-shadow: -4px 0px 8px rgba(0, 0, 0, 0.04), -2px 0px 4px rgba(0, 0, 0, 0.08),
+    -1px 0px 3px rgba(0, 0, 0, 0.16);
+
+  transition: opacity $animation, transform $animation, visibility $animation;
+
+  &.is-open {
+    opacity: 1;
+    transform: translateX(30vw);
+    visibility: visible;
+  }
+}
+
+// button
+
+.btn-menu-open {
+  display: block;
+  border: none;
+  background-color: transparent;
+  fill: #fff;
+}
+
+.btn-menu-open__icon {
+}
+
+.btn-menu-open__icon-menu {
+}
+
+.btn-menu-close {
+  position: absolute;
+  display: block;
+  top: 48px;
+  right: 31px;
+
+  border: none;
+  background-color: transparent;
+  fill: black;
+}
+
+.btn-menu-close__icon {
+}
+
+.btn-menu-close__icon-cross {
+}

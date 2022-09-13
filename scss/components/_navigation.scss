@@ -1,0 +1,21 @@
+.site-nav {
+  margin-bottom: 64px;
+}
+.site-nav__item {
+}
+
+.site-nav__item:not(:last-child) {
+  margin-bottom: 24px;
+}
+.site-nav__link {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.388;
+  letter-spacing: 0.1em;
+
+  color: #303030;
+}
+
+.site-nav__link--current {
+  color: #ff6c00;
+}
