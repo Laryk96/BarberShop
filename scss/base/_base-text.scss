@@ -12,9 +12,12 @@
 
   font-weight: 600;
   font-size: 11px;
-  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: rgba(157, 164, 189, 0.6);
+
+  @media screen and(max-width:767px) {
+    letter-spacing: 0.1em;
+  }
 }
 
 .uppertitle--color-black {
@@ -37,6 +40,11 @@
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.02em;
+
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 1.66;
+  }
 }
 
 .undertitle--color-gray {
@@ -107,12 +115,10 @@
   background: currentColor;
 }
 
-
 .decoration-line--color-gray::before {
   background-color: rgba(157, 164, 189, 0.4);
 }
 
-
-.decoration-line--indent::before{
+.decoration-line--indent::before {
   left: -100px;
 }

@@ -62,11 +62,11 @@ img {
   background-color: #191c26;
 }
 
-.section--no-padding-top{
+.section--no-padding-top {
   padding-top: 0;
 }
 
-.section-other-padding{
+.section-other-padding {
   padding: 44px 0;
 }
 
@@ -86,7 +86,7 @@ img {
 
 .section--bgd-image-footer {
   max-width: 1280px;
-  
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -109,5 +109,8 @@ img {
   margin-right: auto;
   padding-left: 31px;
   padding-right: 31px;
-  max-width: 480px;
+
+  @include mobail-use;
+  @include tablet-use;
+  @include desktop-use;
 }

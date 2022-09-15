@@ -1,21 +1,39 @@
 .site-nav {
-  margin-bottom: 64px;
+  @media screen and(max-width:767px) {
+    margin-bottom: 64px;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    gap: 16px;
+  }
 }
 .site-nav__item {
 }
 
 .site-nav__item:not(:last-child) {
-  margin-bottom: 24px;
+  @media screen and(max-width:767px) {
+    margin-bottom: 24px;
+  }
 }
 .site-nav__link {
   font-weight: 600;
-  font-size: 18px;
-  line-height: 1.388;
   letter-spacing: 0.1em;
+  @media screen and(max-width:767px) {
+    font-size: 18px;
+    line-height: 1.388;
+    letter-spacing: 0.1em;
 
-  color: #303030;
+    color: #303030;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #ffffff;
+  }
 }
 
-.site-nav__link--current {
+.current {
   color: #ff6c00;
 }

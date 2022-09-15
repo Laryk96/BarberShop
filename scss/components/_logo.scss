@@ -1,8 +1,14 @@
 .logo {
-  top: 40px;
-  left: 31px;
+  display: block;
   font-family: "Raleway", sans-serif;
   fill: #fff;
+  @media screen and (min-width: 768px) {
+    fill: #303030;
+    position: absolute;
+    top: 32px;
+    left: 50px;
+
+  }
 }
 .logo__icon {
 }

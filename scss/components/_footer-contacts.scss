@@ -1,10 +1,10 @@
 .address {
 }
 .address__list {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin-bottom: 44px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 44px;
 }
 .address__item {
 }
@@ -14,6 +14,12 @@
   letter-spacing: 0.02em;
 
   color: #9da4bd;
+
+  &:hover,
+  &:focus {
+    color: #ff6c00;
+  }
+  transition: color $animation;
 }
 .address__link--bold-font {
   font-weight: 700;
