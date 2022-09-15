@@ -5,7 +5,7 @@
 
 .page-header__container {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
   padding-top: 40px;
 }
@@ -29,21 +29,6 @@
   color: #303030;
 }
 
-.btn-booking {
-  display: block;
-  padding: 12px 37px;
-
-  background-color: #ffffff;
-  border: 1px solid #ff6c00;
-  border-radius: 25px;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.333;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-
-  color: #303030;
-}
 
 .page-header__network {
 }

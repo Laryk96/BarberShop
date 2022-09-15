@@ -31,11 +31,16 @@
         <button
           class="btn-menu-open"
           type="button"
-          aria-controls="mobail-menu"
           aria-expanded="false"
+          aria-controls="mobail-menu"
           data-menu-button
         >
-          <svg class="btn-menu-open__icon" width="40" height="40">
+          <svg
+            class="btn-menu-open__icon"
+            width="40"
+            height="40"
+            aria-label="Переключатель мобильного меню"
+          >
             <use
               class="btn-menu-open__icon-menu"
               href="./image/symbol-defs.svg#icon-menu"
@@ -46,11 +51,16 @@
           <button
             class="btn-menu-close"
             type="button"
-            aria-controls="mobail-menu"
             aria-expanded="false"
+            aria-controls="mobail-menu"
             data-mobile-menu-close
           >
-            <svg class="btn-menu-close__icon" width="40" height="40">
+            <svg
+              class="btn-menu-close__icon"
+              width="40"
+              height="40"
+              aria-label="Переключатель мобильного меню"
+            >
               <use
                 class="btn-menu-close__icon-cross"
                 href="./image/symbol-defs.svg#icon-cross"
@@ -80,14 +90,16 @@
             <a href="tel:+380441111111" class="header__tel"
               >+38 044 111 11 11</a
             >
-            <button type="button" class="btn-booking">online-booking</button>
+            <button type="button" class="btn page-header__btn">
+              online-booking
+            </button>
           </div>
 
           <div class="page-header__network">
             <ul class="network-text">
               <li class="network-text__item">
                 <a
-                  class="network-text__link network-text__link--decoration"
+                  class="network-text__link decoration-line decoration-line--indent"
                   href=""
                   >Instagram</a
                 >
@@ -105,34 +117,44 @@
         <div class="main-section__container">
           <p class="uppertitle">A hair salon for men in Kyiv</p>
           <h1 class="main-section__title">BarberShop</h1>
-          <p class="undertitle"> 
+          <p class="undertitle undertitle--color-gray">
             We are experts in trendy men’s haircuts. We work quickly, carefully
             and with style.
           </p>
         </div>
       </section>
-      <section class="section section--about">
+      <section class="section">
         <div class="container">
-          <p class="uppertitle">About</p>
-          <h2 class="title">Best Barbershop in your city</h2>
-          <p class="undertitle">
-            If you want to add more confidence to your image, you should visit
-            us
-          </p>
-          <p class="about__desc">
-            We are a team that never stops at what has been achieved and are
-            thirsty for changes. And when you fall into the hands of our master,
-            you will never be the same again. We are a team that is always "on
-            the same wave" with clients. Therefore, we are always ready to
-            improve everyone who comes to us!
-          </p>
-          <button type="button" class="btn-booking">online-booking</button>
+          <div class="about-text">
+            <p class="uppertitle uppertitle--color-black decoration-line">
+              About
+            </p>
+            <h2 class="title title--thin-font">Best Barbershop in your city</h2>
+            <p class="undertitle">
+              If you want to add more confidence to your image, you should visit
+              us
+            </p>
+            <p class="about__desc">
+              We are a team that never stops at what has been achieved and are
+              thirsty for changes. And when you fall into the hands of our
+              master, you will never be the same again. We are a team that is
+              always "on the same wave" with clients. Therefore, we are always
+              ready to improve everyone who comes to us!
+            </p>
+          </div>
+          <button type="button" class="btn btn--color-black">
+            online-booking
+          </button>
         </div>
       </section>
-      <section class="section section--servis">
+      <section class="section section--bgd-image">
         <div class="container">
-          <p class="uppertitle">Spend your time with the best masters</p>
-          <h2 class="title">Services and prices</h2>
+          <p class="uppertitle decoration-line">
+            Spend your time with the best masters
+          </p>
+          <h2 class="title title--center title--color-white title--medium-font">
+            Services and prices
+          </h2>
           <ul class="servis-list">
             <li class="servis-list__item">
               Men’s haircut
@@ -167,11 +189,301 @@
             </li>
           </ul>
 
-          <button type="button" class="btn-booking">online-booking</button>
+          <button type="button" class="btn btn--center btn--transparent">
+            online-booking
+          </button>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container container--benefits">
+          <div class="benefits-text">
+            <p class="uppertitle undertitle--color-black decoration-line">
+              Old traditional school
+            </p>
+            <h2 class="title">¿Why people come to us?</h2>
+            <p
+              class="undertitle undertitle-bottom-indent undertitle--larger-font"
+            >
+              Only good things are said about us. But it's better to see and
+              feel 1 time than read 10 times.
+            </p>
+            <ul class="benefits-list">
+              <li class="benefits-list__item">
+                <div class="benefits__box">
+                  <p class="benefits-list__quantity">600</p>
+                  <p class="benefits-list__text">Satisfied customers per day</p>
+                </div>
+              </li>
+              <li class="benefits-list__item">
+                <div class="benefits__box">
+                  <p class="benefits-list__quantity">50</p>
+                  <p class="benefits-list__text">
+                    Awards for excellent service
+                  </p>
+                </div>
+              </li>
+              <li class="benefits-list__item">
+                <div class="benefits__box">
+                  <p class="benefits-list__quantity">20</p>
+                  <p class="benefits-list__text">Kyiv’s best barbers</p>
+                </div>
+              </li>
+              <li class="benefits-list__item">
+                <div class="benefits__box">
+                  <p class="benefits-list__quantity">100</p>
+                  <p class="benefits-list__text">Gifts for regular customers</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section section--bgd-white">
+        <div class="container">
+          <p class="uppertitle uppertitle--color-black decoration-line">
+            For true enjoyers of the atmosphere
+          </p>
+          <h2 class="title">Our barbers</h2>
+          <ul class="team-list">
+            <li class="team-list__item">
+              <img src="./image/team-1@1x_sm.jpg" alt="" />
+              <div class="team-box">
+                <p class="team-list__title">John Smith</p>
+                <p class="team-list__text">Extreme Barber</p>
+                <ul class="network">
+                  <li class="network__item">
+                    <a href="" class="network__link"
+                      ><svg class="network__icon" width="20" height="20">
+                        <use
+                          href="./image/symbol-defs.svg#icon-instagram"
+                        ></use></svg
+                    ></a>
+                  </li>
+                  <li class="network__item">
+                    <a href="" class="network__link"
+                      ><svg class="network__icon" width="20" height="20">
+                        <use
+                          href="./image/symbol-defs.svg#icon-twitter"
+                        ></use></svg
+                    ></a>
+                  </li>
+                  <li class="network__item">
+                    <a href="" class="network__link"
+                      ><svg class="network__icon" width="20" height="20">
+                        <use
+                          href="./image/symbol-defs.svg#icon-facebook"
+                        ></use></svg
+                    ></a>
+                  </li>
+                  <li class="network__item">
+                    <a href="" class="network__link"
+                      ><svg class="network__icon" width="20" height="20">
+                        <use
+                          href="./image/symbol-defs.svg#icon-linkedin"
+                        ></use></svg
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="team-list__item">
+              <img src="./image/team-2@1x_sm.jpg" alt="" />
+              <div class="team-box">
+                <p class="team-list__title">Michele Doe</p>
+                <p class="team-list__text">Extreme Barber</p>
+                <ul class="network">
+                  <li class="network__item">
+                    <a href="" class="network__link"
+                      ><svg class="network__icon" width="20" height="20">
+                        <use
+                          href="./image/symbol-defs.svg#icon-instagram"
+                        ></use></svg
+                    ></a>
+                  </li>
+                  <li class="network__item">
+                    <a href="" class="network__link"
+                      ><svg class="network__icon" width="20" height="20">
+                        <use
+                          href="./image/symbol-defs.svg#icon-twitter"
+                        ></use></svg
+                    ></a>
+                  </li>
+                  <li class="network__item">
+                    <a href="" class="network__link"
+                      ><svg class="network__icon" width="20" height="20">
+                        <use
+                          href="./image/symbol-defs.svg#icon-facebook"
+                        ></use></svg
+                    ></a>
+                  </li>
+                  <li class="network__item">
+                    <a href="" class="network__link"
+                      ><svg class="network__icon" width="20" height="20">
+                        <use
+                          href="./image/symbol-defs.svg#icon-linkedin"
+                        ></use></svg
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="team-list__item">
+              <img src="./image/team-3@1x_sm.jpg" alt="" />
+              <div class="team-box">
+                <p class="team-list__title">Alan Black</p>
+                <p class="team-list__text">Extreme Barber</p>
+                <ul class="network">
+                  <li class="network__item">
+                    <a href="" class="network__link"
+                      ><svg class="network__icon" width="20" height="20">
+                        <use
+                          href="./image/symbol-defs.svg#icon-instagram"
+                        ></use></svg
+                    ></a>
+                  </li>
+                  <li class="network__item">
+                    <a href="" class="network__link"
+                      ><svg class="network__icon" width="20" height="20">
+                        <use
+                          href="./image/symbol-defs.svg#icon-twitter"
+                        ></use></svg
+                    ></a>
+                  </li>
+                  <li class="network__item">
+                    <a href="" class="network__link"
+                      ><svg class="network__icon" width="20" height="20">
+                        <use
+                          href="./image/symbol-defs.svg#icon-facebook"
+                        ></use></svg
+                    ></a>
+                  </li>
+                  <li class="network__item">
+                    <a href="" class="network__link"
+                      ><svg class="network__icon" width="20" height="20">
+                        <use
+                          href="./image/symbol-defs.svg#icon-linkedin"
+                        ></use></svg
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <h2 class="visually-hidden">Our gallery</h2>
+          <p class="uppertitle uppertitle--color-black decoration-line">
+            In Latin, "barba" means "beard"
+          </p>
+          <ul class="gallery">
+            <li class="gallery__item">
+              <img src="./image/gallery-img@1x_sm.jpg" alt="" />
+            </li>
+            <li class="gallery__item">
+              <img src="./image/Rectangle 26.jpg" alt="" />
+            </li>
+            <li class="gallery__item">
+              <img src="./image/Rectangle 27.jpg" alt="" />
+            </li>
+            <li class="gallery__item">
+              <img src="./image/Rectangle 28.jpg" alt="" />
+            </li>
+          </ul>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="page-footer">
+      <section class="section section--bgd-black">
+        <div class="container">
+          <h2 class="title title--color-white title--center">Online-booking</h2>
+          <form class="form-footer">
+            <ul class="form-footer__list">
+              <li class="form-footer__item">
+                <input
+                  id="name"
+                  class="form-footer__input"
+                  type="text"
+                  placeholder=" "
+                />
+                <label for="name" class="form-footer__label">Name*</label>
+              </li>
+              <li class="form-footer__item">
+                <input
+                  id="tel"
+                  class="form-footer__input"
+                  type="tel"
+                  placeholder=" "
+                />
+                <label for="tel" class="form-footer__label">Phone*</label>
+              </li>
+            </ul>
+            <div class="tumb">
+              <textarea
+                id="message"
+                name="message"
+                class="form-footer__textarea"
+                placeholder=" "
+              ></textarea>
+              <label for="message" class="form-footer__label-textarea"
+                >Message
+              </label>
+            </div>
+            <button class="btn form-footer__btn" type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+      <section class="section section--bgd-image-footer">
+        <div class="container">
+          <h2 class="title title--color-white title--center">Contacts</h2>
+          <address class="address">
+            <ul class="address__list">
+              <lu class="address__item"
+                ><a class="address__link address__link--bold-font"
+                  >st. Vasilkovaya, 7A Kiev, 08132</a
+                ></lu
+              >
+              <lu class="address__item"
+                ><a class="address__link">+38 044 111 11 11</a></lu
+              >
+              <lu class="address__item"
+                ><a class="address__link">barbershop@email.com</a></lu
+              >
+            </ul>
+            <p
+              class="uppertitle undertitle--color-white decoration-line decoration-line--color-gray"
+            >
+              Working hours
+            </p>
+            <p class="address__schedule">Every day from 9:00 to 22:00</p>
+          </address>
+        </div>
+      </section>
+      <section class="section section--bgd-white section-other-padding">
+        <div class="container">
+          <div class="page-footer__flex-box">
+            <span class="copyright">&#169; Copyright 2020</span>
+            <ul class="network-text page-footer__natwork-text">
+              <li class="network-text__item network-text__item--other-setting">
+                <a
+                  class="network-text__link network-text__link--small-font decoration-line decoration-line--indent"
+                  href=""
+                  >Instagram</a
+                >
+              </li>
+              <li class="network-text__item network-text__item--other-setting">
+                <a
+                  class="network-text__link network-text__link--small-font"
+                  href=""
+                  >Youtube</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </footer>
     <script src="./js/mobail-menu.js"></script>
     <script src="./js/test-form.js"></script>
   </body>

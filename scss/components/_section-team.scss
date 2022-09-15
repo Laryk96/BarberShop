@@ -1,0 +1,31 @@
+
+.team-list {
+}
+.team-list__item {
+  max-width: 418px;
+  text-align: center;
+}
+
+.team-list__item:not(:last-child){
+  margin-bottom: 64px;
+}
+.team-box {
+  width: 100%;
+  margin-top: 30px;
+}
+.team-list__title {
+  margin-bottom: 8px;
+
+  font-size: 18px;
+  line-height: 1.388;
+  letter-spacing: 0.02em;
+  color: #303030;
+}
+.team-list__text {
+  margin-bottom: 30px;
+
+  font-size: 14px;
+  line-height: 1.357;
+  letter-spacing: 0.02em;
+  color: #ff6c00;
+}

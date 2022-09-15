@@ -1,0 +1,28 @@
+.network {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.network__item {
+}
+.network__link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+
+  color: #303030;
+  background-color: #fff;
+  border-radius: 50%;
+
+  &:hover {
+    color: #ff6c00;
+  }
+
+  transition: color $animation;
+}
+.network__icon {
+  fill: currentColor;
+}

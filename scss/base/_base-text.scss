@@ -1,0 +1,118 @@
+/**
+  |============================
+  | uppertitle
+  |============================
+*/
+
+.uppertitle {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-left: 80px;
+
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.uppertitle--color-black {
+  color: #303030;
+}
+
+.undertitle--color-white {
+  color: #fff;
+}
+
+/**
+  |============================
+  | undertitle
+  |============================
+*/
+
+.undertitle {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.02em;
+}
+
+.undertitle--color-gray {
+  color: #9da4bd;
+}
+.undertitle--color-black {
+  color: #303030;
+}
+
+.undertitle-bottom-indent {
+  margin-bottom: 44px;
+}
+
+.undertitle--larger-font {
+  font-size: 18px;
+}
+
+/**
+  |============================
+  | title
+  |============================
+*/
+
+.title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 1.166;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.166;
+  letter-spacing: 0.05em;
+
+  color: #303030;
+}
+.title--color-white {
+  color: #fff;
+}
+
+.title--thin-font {
+  max-width: 306px;
+
+  font-size: 28px;
+  line-height: 1.178;
+}
+
+.title--medium-font {
+  font-size: 40px;
+  line-height: 1.175;
+}
+
+.title--center {
+  text-align: center;
+  margin-bottom: 44px;
+}
+
+/**
+  |============================
+  | decor
+  |============================
+*/
+.decoration-line::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -80px;
+  width: 60px;
+  height: 1px;
+  background: currentColor;
+}
+
+
+.decoration-line--color-gray::before {
+  background-color: rgba(157, 164, 189, 0.4);
+}
+
+
+.decoration-line--indent::before{
+  left: -100px;
+}

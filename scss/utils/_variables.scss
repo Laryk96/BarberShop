@@ -1,13 +1,18 @@
 $text-color: (
-  "main=gray": #9DA4BD,
+  "main=gray": #9da4bd,
   "title-black": #303030,
-  "title-white":#fff,
+  "title-white": #fff,
 );
 @function text($key) {
   @return map-get($text-color, $key);
 }
 
-
+$bgd-color: (
+  "section-white": #E5E5E5,
+);
+@function bgd($key) {
+  @return map-get($bgd-color, $key);
+}
 
 /**
   |============================

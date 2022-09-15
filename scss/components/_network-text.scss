@@ -2,7 +2,6 @@
 }
 
 .network-text__item {
-  position: relative;
   padding-left: 100px;
 }
 
@@ -11,6 +10,7 @@
 }
 
 .network-text__link {
+  position: relative;
   display: inline-block;
   font-weight: 600;
   font-size: 14px;
@@ -20,14 +20,15 @@
   color: #303030;
 }
 
-.network-text__link--decoration::before {
-  content: "";
-  position: absolute;
-  left: 30px;
-  top: -19px;
-  width: 1px;
-  height: 60px;
-  color: #303030;
-  background: #303030;
-  transform: rotate(90deg);
+.page-footer__natwork-text {
+  display: flex;
+  gap: 40px;
+}
+.network-text__item--other-setting {
+  padding: 0;
+}
+
+.network-text__link--small-font {
+  font-size: 11px;
+  line-height: 1.363;
 }

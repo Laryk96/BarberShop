@@ -1,14 +1,17 @@
 .servis-list {
   margin-bottom: 44px;
+  padding: 30px;
+
+  background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
 }
 .servis-list__item {
   display: flex;
   justify-content: space-between;
-
+  color: #9da4bd;
 }
 
 .servis-list__item:not(:last-child) {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .servis-list__price {
 }
