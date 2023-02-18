@@ -1,0 +1,82 @@
+.hero {
+  @include mq(mob-only) {
+    background-color: rgba(25, 28, 38, 0.2);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    background-image: url(../images/hero/hero-bg@1x_sm.jpg);
+
+    @include mq(retina) {
+      background-image: url(../images/hero/hero-bg@2x_sm.jpg);
+    }
+
+    @include mq(mob) {
+      background-image: url(../images/hero/hero-bg@1x_md.jpg);
+
+      @include mq(retina) {
+        background-image: url(../images/hero/hero-bg@2x_md.jpg);
+      }
+    }
+  }
+}
+
+.hero__container {
+  @include mq(tab) {
+    position: relative;
+    display: flex;
+  }
+}
+
+.hero__left-side {
+  position: relative;
+  width: 100px;
+
+  @include mq(mob-only) {
+    display: none;
+  }
+}
+
+.hero__media-list {
+  position: absolute;
+  bottom: 40px;
+  left: 26px;
+
+  transform: rotate(-180deg);
+  writing-mode: vertical-lr;
+}
+
+.hero__right-side {
+  padding-top: 208px;
+  padding-bottom: 208px;
+
+  @include mq(tab) {
+    flex-grow: 1;
+    padding-top: 272px;
+    padding-bottom: 237px;
+    padding-left: 120px;
+
+    background-color: rgba(25, 28, 38, 0.2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/hero/hero-bg@1x_md.jpg);
+
+    @include mq(retina) {
+      background-image: url(../images/hero/hero-bg@2x_md.jpg);
+    }
+  }
+  @include mq(desk) {
+    padding-bottom: 206px;
+    padding-left: 100px;
+
+    background-image: url(../images/hero/hero-bg@1x_lg.jpg);
+
+    @include mq(retina) {
+      background-image: url(../images/hero/hero-bg@2x_lg.jpg);
+    }
+  }
+}
+
+.hero__undertitle {
+  max-width: 360px;
+}
